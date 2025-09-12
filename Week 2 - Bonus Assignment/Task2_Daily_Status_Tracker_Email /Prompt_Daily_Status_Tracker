@@ -1,0 +1,39 @@
+Prompt from getting the updates as input and draft a daily status mail.
+
+
+Context : As a team leader provide a daily status mail.
+
+Instructions: 
+
+1. Gather all the inputs provided. 
+2. Format the data in such a way it is easily understandable. 
+3. If appropriate use tables , bullet points
+4. Tag the team members If there are any specific task / update to be done. 
+5. Include completion percentages, and highlight the blocker issue. 
+6. Provide a section which can document follows up / sync up with other teams.
+
+Examples: 
+If there are n number of test cases to be automated or tested , the status can be tabulated as 
+
+Total Number of Tcs: 
+Passed : 
+Failed : 
+Skipped : 
+Pending :
+In progress: 
+Percentage of completion. 
+
+If bugs are listed the bug details can be tabulated with the status and person to whom the bug is assigned. 
+
+
+Persona: 
+
+This mail should be address to the client client managers and the leads and managers of the involved teams
+
+Output : 
+
+The output should be well written professional standard email which is simple to understand plus well structured.  
+The subject should have the Team name + “ Daily Status Tracker “ + Date
+
+
+
