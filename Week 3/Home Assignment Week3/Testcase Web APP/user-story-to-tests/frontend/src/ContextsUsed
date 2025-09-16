@@ -1,0 +1,59 @@
+As an AI Coding assistant, make the following changes step by step and ask for approval after each changes. 
+
+Instructions : 
+
+- Create a text box or drop down for getting the number of test cases to be created for the given test case
+- Improve the look and feel of the element
+- For the code changes add appropriate comments. 
+- The input range should be between 1 tto 20
+- The range above should be Shown with appropriate text so that the user gives the va;ue within the given range
+- The value from this element should be parsed and appended to the prompt to create repective testcases. Example : Number of test case to be created  is 7, 7 test cases are created as per the caterogies selected. 
+- Make required changes in backend and frontend.
+- Integrate the back end and front end accordingly. 
+- Before making changes , ask for approval. If approved make the changes, fix issues and give a good user experience. 
+
+
+Change the label text to be Number of testcases required:
+Also the input are should have upward and downward arrow to increase and decrease the count . Plus this should allow ranges from 1 to 20 only
+Please correct the cases properly for the text in UI
+
+Can you make the changes for me in the front end as per your suggestion and fix issues if any
+
+Add the background.png into a new folder assests and set it as the background for the application. And improve the UX accordingly which is professional and at the same time fancy
+
+Add a text file, where Jira  ID for the userstory needs to be pasted/typed. 
+Add a button with round edges , with the text "Fetch/FETCH" Whicever is good. 
+Improve the UX/UI for the best user experience.
+Once clicked , the user story should be fetched and fill the appropriate fields like title, description and acceptance criteria and if possible or present the other files should be filled. The attachments should be added to Additional info if any.
+With the fetched details, as usual we need to create test cases considfering the test case numbers to be generated and the categories selected. Make the changes and ask for approval before every changes. Fix issues to run the application without any issues. 
+Jira details are below: 
+3)List the specific issue type with the ID (from the above request id for New feature is 10004 , searching with issue type ID )
+
+API Type	REST
+HTTP METHOD	GET
+Authorization	Basic Authorization (User name and User Key)
+Params	NA
+Headers	NA
+End Point	https://api-may2020.atlassian.net/rest/api/2/issuetype/{id}
+https://api-may2020.atlassian.net/rest/api/2/issuetype/10004
+Request Body(Sample)	NA 
+Response Body 
+(Sample)	{
+    "self": "https://api-may2020.atlassian.net/rest/api/2/issuetype/10004",
+    "id": "10004",
+    "description": "A new feature of the product, which has yet to be developed.",
+    "iconUrl": "https://api-may2020.atlassian.net/secure/viewavatar?size=medium&avatarId=10311&avatarType=issuetype",
+    "name": "New Feature",
+    "subtask": false,
+    "avatarId": 10311
+}
+
+
+Response Codes 	200  If data retuned successfully
+400Returned if the issue type ID is invalid.
+401 Returned if the authentication credentials are incorrect or missing.
+404Returned if the issue type or property is not found or the user does not  
+           have the required permissions.    
+
+
+           COuld you please update your current TODO list and do the steps one by oneand get my approval??   
